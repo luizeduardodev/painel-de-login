@@ -8,6 +8,9 @@
     text-decoration: none;
     color: white;
 }
+html{
+    -webkit-tap-highlight-color: transparent;
+}
 /* Header */
 header{
     position: fixed;
@@ -246,6 +249,8 @@ main form footer a:hover{
             /* Main */
             main form{
                 width: 95%;
+                margin-top: 80px;
+                position: fixed;
             }
             main form .inputs-container input{
                 width: 95%;

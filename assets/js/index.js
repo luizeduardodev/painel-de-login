@@ -1,7 +1,6 @@
-//Função para mostrar a senha ou não;
-const showPassword = () => {
-    const eyeSlash = document.getElementById("eye-slash");
+function showPassword(){
     const eye = document.getElementById("eye");
+    const eyeSlash = document.getElementById("eye-slash");
     const fieldPassword = document.getElementById("field-password");
 
     if(eye.style.display === "none"){
@@ -13,7 +12,7 @@ const showPassword = () => {
         eyeSlash.style.display = "block";
         fieldPassword.type = "password";
     }
-}
+};
 
 document.getElementById("btn-login").addEventListener("click", function(e){
     e.preventDefault();
